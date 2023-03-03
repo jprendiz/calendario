@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(15, 125, 235);
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-size: 14px;
+}
+
+.encabezado  {
+    height: auto;
+    color: antiquewhite;
+    background: darkcyan;
+    border: 1px solid antiquewhite;
+    text-align: center;
+}
+
+.morning  {
+    height: auto;
+    color: antiquewhite;
+    background: red;
+    border: 1px solid antiquewhite;
+    text-align: center;
+}
+
+.afternoon  {
+    height: auto;
+    color: antiquewhite;
+    background: orangered;
+    border: 1px solid antiquewhite;
+    text-align: center;
+}
+
+.after {
+    color: antiquewhite;
+    background: rgb(130, 185, 240);
+    border: 1px solid antiquewhite;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+}
