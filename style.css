@@ -23,30 +23,27 @@ h1 {
     height: auto;
     color: antiquewhite;
     background: darkcyan;
-    border: 1px solid antiquewhite;
+    border: 1px solid rgb(80, 80, 80);
     text-align: center;
 }
 
 .morning  {
     height: auto;
-    color: antiquewhite;
-    background: red;
-    border: 1px solid antiquewhite;
+    color:rgb(15, 125, 235);;
+    border: 1px solid rgb(150, 150, 150);;
     text-align: center;
 }
 
 .afternoon  {
     height: auto;
-    color: antiquewhite;
-    background: orangered;
-    border: 1px solid antiquewhite;
+    color: orangered;
+    border: 1px solid rgb(150, 150, 150);;
     text-align: center;
 }
 
 .after {
-    color: antiquewhite;
-    background: rgb(130, 185, 240);
-    border: 1px solid antiquewhite;
+    color: rgb(80, 80, 80);
+    border: 1px solid rgb(150, 150, 150);;
     text-align: center;
 }
 
